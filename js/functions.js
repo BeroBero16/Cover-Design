@@ -1,0 +1,15 @@
+$(document).ready(function(){
+    $(".submit").click(function(){
+        $("#book").css("background-color",$("#Backgroundcolor").val());
+          $("#b1").text($("#Booktitle").val());
+            $("#b1").css("color",$("#Booktitlecolor").val());
+            $("#b2").text($("#Booksubtitle").val());
+              $("#b2").css("color",$("#Booksubtitlecolor").val());
+              $("#b3").text($("#Authorname").val());
+                $("#b3").css("color",$("#Authornamecolor").val());
+                $("#b4").text($("#Publishername").val());
+                  $("#b4").css("color",$("#Publishernamecolor").val());
+                  $("#b5").text($("#Publishingyear").val());
+                    $("#b5").css("color",$("#Publishingyearcolor").val());
+    });
+});
